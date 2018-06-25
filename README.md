@@ -62,7 +62,7 @@ cat 2007_train.txt 2007_val.txt 2012_*.txt > voc_train.txt
 ##### Modify Cfg for Pascal Data
 Change the cfg/voc.data config file
 ```
-train  = train.txt
+train  = voc_train.txt
 valid  = 2007_test.txt
 names = data/voc.names
 backup = backup
